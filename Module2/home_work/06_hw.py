@@ -31,3 +31,13 @@
 # 20 199.8 Rub.
 
 # TODO: your code here
+coast = float(input("Цена: "))
+#coast = format(coast, '.2f')
+n = int(1)
+
+while n <= 20:
+    sum_coast = coast * n
+    sum_coast = format(sum_coast, '.2f')
+    print(n, sum_coast, "rub")
+    n+=1
+    
