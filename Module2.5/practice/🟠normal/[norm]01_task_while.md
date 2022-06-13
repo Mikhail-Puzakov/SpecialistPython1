@@ -34,9 +34,13 @@ n = 5
 
 ```python
 # TODO: you code here...
-```
+num_of_steps = int(input("Введите колличестов ступеней (от 2 до 19): "))
+count = 1
 
----
+while count <= num_of_steps and count < 20:
+    step = "*" * count
+    print(step)
+    count += 1
 
 ### Подсказки
 
